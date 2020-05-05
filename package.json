@@ -10,7 +10,7 @@
     "url": "https://github.com/nandenjin/electron-ts-starter.git"
   },
   "scripts": {
-    "build": "webpack --config config/webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack.config.js",
     "start": "run-s dev",
     "dev": "run-p dev:*",
     "dev:main": "webpack --config config/webpack.config.main.js -w",
@@ -25,6 +25,7 @@
     "@types/node": "^13.13.4",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
+    "cross-env": "^7.0.2",
     "css-loader": "^3.5.3",
     "electron-reload": "^1.5.0",
     "eslint": "^6.8.0",
