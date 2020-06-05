@@ -1,6 +1,9 @@
 # 📦 electron-ts-starter
 [![License](https://img.shields.io/github/license/nandenjin/electron-ts-starter?style=flat-square)](/LICENSE)
 ![CI status](https://img.shields.io/github/workflow/status/nandenjin/electron-ts-starter/CI?label=CI%20status&style=flat-square)
+[![Dependencies](https://img.shields.io/david/nandenjin/electron-ts-starter?style=flat-square)](https://david-dm.org/nandenjin/electron-ts-starter)
+[![devDependencies](https://img.shields.io/david/dev/nandenjin/electron-ts-starter?style=flat-square)](https://david-dm.org/nandenjin/electron-ts-starter?type=dev)
+![GitHub last commit](https://img.shields.io/github/last-commit/nandenjin/electron-ts-starter?style=flat-square)
 
 ## Features
 
