@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["ES2019", "dom"]
+    "lib": ["ES2019", "dom"],
+    "baseUrl": "./src/",
+    "paths": {
+      "#/*": ["*"]
+    }
   },
   "include": [
     "src/**/*"
