@@ -31,7 +31,8 @@ jobs:
     
     - name: Lint
       run: yarn run lint
-  build:
+
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -59,3 +60,6 @@ jobs:
     
     - name: Build
       run: yarn run build
+    
+    - name: Test
+      run: yarn run test
