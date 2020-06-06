@@ -29,7 +29,7 @@ describe('App launch', () => {
   beforeAll(() => {
     app = getApp()
     return app.start()
-  })
+  }, 20 * 1000)
 
   afterAll(async () => {
     if (app && app.isRunning()) {
