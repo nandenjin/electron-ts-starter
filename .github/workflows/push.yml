@@ -60,7 +60,10 @@ jobs:
     
     - name: Build
       run: yarn run build
+
+    - name: Install xvfb
+      run: sudo apt-get install xvfb
     
     - name: Test
-      run: yarn run test
+      run: xvfb-run --auto-servernum yarn run test
       timeout-minutes: 3
