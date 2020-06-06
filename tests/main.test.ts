@@ -22,11 +22,6 @@ const getApp = () =>
   new Application({
     path: electronPath,
     args: [appPath],
-    chromeDriverArgs: [
-      // https://github.com/electron-userland/spectron/issues/443
-      'remote-debugging-port=' +
-        Math.floor(Math.random() * (9999 - 9000) + 9000),
-    ],
   })
 
 describe('App launch', () => {
@@ -36,13 +31,12 @@ describe('App launch', () => {
     return app.start()
   })
 
-  afterAll(() => {
+  afterAll(async () => {
     if (app && app.isRunning()) {
-      return app.stop()
+      await app.stop()
     }
   })
 
-  it('shows initial window', async () => {
-    expect(await app.client.getWindowCount()).toBe(1)
-  })
+  test('shows initial window', async () =>
+    expect(await app.client.getWindowCount()).toBe(1))
 })
