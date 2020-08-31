@@ -43,7 +43,7 @@
     "spectron": "^11.1.0",
     "style-loader": "^1.2.1",
     "ts-jest": "^26.3.0",
-    "ts-loader": "^8.0.2",
+    "ts-loader": "^8.0.3",
     "ts-node": "^9.0.0",
     "typescript": "^3.9.7",
     "webpack": "^4.44.1",
