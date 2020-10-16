@@ -14,7 +14,7 @@
     "start": "run-s dev",
     "dev": "run-p dev:*",
     "dev:main": "webpack --config config/webpack.config.main.js -w",
-    "dev:renderer": "webpack-dev-server --config config/webpack.config.renderer.js",
+    "dev:renderer": "webpack serve --mode development --config config/webpack.config.renderer.js",
     "dev:electron": "electron .",
     "lint": "eslint --ext js,ts .",
     "test": "jest"
