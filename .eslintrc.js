@@ -5,20 +5,14 @@ module.exports = {
     browser: true,
     es6: true
   },
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier',
-    'prettier/@typescript-eslint'
+    'prettier'
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-var-requires': 'off',
-    'prettier/prettier': ['error', {
-      semi: false,
-      singleQuote: true,
-      trailingComma: 'es5'
-    }]
   }
 }
