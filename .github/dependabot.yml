@@ -1,15 +1,15 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: weekly
-    time: '06:00'
-    timezone: Asia/Tokyo
-  open-pull-requests-limit: 10
-  assignees:
-  - nandenjin
-  labels:
-  - dependencies
-  - automerge
-  versioning-strategy: increase
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: weekly
+      time: '06:00'
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 10
+    assignees:
+      - nandenjin
+    labels:
+      - dependencies
+      - automerge
+    versioning-strategy: increase

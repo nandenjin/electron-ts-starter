@@ -1,18 +1,18 @@
 module.exports = {
-  parser: '@typescript-eslint/parser', 
+  parser: '@typescript-eslint/parser',
   env: {
     node: true,
     browser: true,
-    es6: true
+    es6: true,
   },
   plugins: ['@typescript-eslint'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier'
+    'prettier',
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-var-requires': 'off',
-  }
+  },
 }
