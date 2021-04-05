@@ -11,5 +11,4 @@ updates:
       - nandenjin
     labels:
       - dependencies
-      - automerge
     versioning-strategy: increase
