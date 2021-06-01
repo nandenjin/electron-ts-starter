@@ -44,7 +44,7 @@
     "prettier": "^2.3.0",
     "sass": "^1.34.0",
     "sass-loader": "^12.0.0",
-    "spectron": "^14.0.0",
+    "spectron": "^15.0.0",
     "style-loader": "^2.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-recess-order": "^2.4.0",
