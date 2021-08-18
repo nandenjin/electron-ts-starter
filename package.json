@@ -23,7 +23,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "electron": "^13.2.0"
+    "electron": "^13.2.1"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
